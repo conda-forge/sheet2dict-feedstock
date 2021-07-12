@@ -1,5 +1,5 @@
 {% set name = "sheet2dict" %}
-{% set version = "0.0.10" %}
+{% set version = "0.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sheet2dict-{{ version }}.tar.gz
-  sha256: 21c8ddbe1df0bc7d4a7d885b24e8f6a07d565b9bdfff9825508c242b09530518
+  sha256: 1d40e579506b3f188a11f20e5dc15a5c5efebb542ab1b97aef568b95448a842e
 
 build:
   number: 0
